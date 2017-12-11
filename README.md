@@ -35,3 +35,8 @@ step1(function(value1) {
 * 异步操作失败，promise对象抛出一个错误，状态变为“rejected”。
 
 #### Promise对象使用then方法添加回调函数。then 可以接受两个回调函数，第一个是异步操作成功时（变为“resolved”状态）时的回调函数，第二个是异步操作失败（变为“rejected”）时的回调函数（可以省略）。一旦回调函数改变，就变为相应的回调函数。
+
+#### 搭建环境必备软件
+* [VMware workstation Pro 12](http://rj.baidu.com/soft/detail/13808.html?ald) 
+* [mocha.ova](http://pan.baidu.com/s/1o8a3E3o)
+* [XShell 5](http://rj.baidu.com/soft/detail/15201.html)
