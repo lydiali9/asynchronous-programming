@@ -1,4 +1,4 @@
-／／ 传统写法
+## 传统写法
 ```javascript
 step1(function(value1) {
     step2(value1, function(value2) {
@@ -10,7 +10,7 @@ step1(function(value1) {
     });
 });
 ```
-
+## Promise实现
 ```javascript
 (new Promise(step1))
     .then(step2)
